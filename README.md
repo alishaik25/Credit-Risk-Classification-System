@@ -2,7 +2,7 @@ This project focuses on developing a machine learning pipeline to assess the cre
 
 The project demonstrates end-to-end data processing, feature engineering, class balancing, model training, evaluation, and insights relevant to real-world financial risk analysis.
 
-1. Dataset Description
+Dataset Description:
 
 The dataset used is a publicly available credit dataset containing a mix of numerical and categorical features. Key attributes include:
 
@@ -26,7 +26,7 @@ Loan purpose
 
 Credit risk label: Good (1) or Bad (0)
 
-2. Challenges Identified
+Challenges Identified:
 
 Missing values in categorical features
 
@@ -36,7 +36,7 @@ Mixed data types requiring tailored preprocessing
 
 Importance of maximizing recall for the risky applicant group
 
-3. Data Preprocessing Pipeline
+Data Preprocessing Pipeline
 
 The preprocessing workflow includes:
 
@@ -62,7 +62,7 @@ Class Balancing:
 
 SMOTE applied on the training set to address minority class imbalance
 
-4. Machine Learning Models
+Machine Learning Models:
 
 The following models were trained and compared:
 
@@ -78,7 +78,7 @@ Effective for difficult cases but slightly less stable.
 Logistic Regression
 Used as a baseline; interpretable but lower performance.
 
-5. Evaluation Metrics
+Evaluation Metrics:
 
 Models were evaluated using:
 
